@@ -1,5 +1,6 @@
 import 'package:cart_app/pages/home_page/widgets/search_box.dart';
 import 'package:cart_app/widgets/app_bar/app_bar.dart';
+import 'package:cart_app/widgets/reuseble/cart_item.dart';
 import 'package:cart_app/widgets/reuseble/product_cart.dart';
 import 'package:flutter/material.dart';
 
@@ -94,6 +95,13 @@ class HomePage extends StatelessWidget {
               SizedBox(
                  height: 10,
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  cartItem(tittel: "chamod", amount: 400, price: 200.44, unit: "ml"),
+                  cartItem(tittel: "nisansala", amount: 500, price: 500.44, unit: "l")
+                ],
+              )
             ],
           ),
         ),
