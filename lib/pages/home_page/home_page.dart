@@ -1,7 +1,7 @@
 import 'package:cart_app/pages/home_page/widgets/search_box.dart';
 import 'package:cart_app/widgets/app_bar/app_bar.dart';
-import 'package:cart_app/widgets/reuseble/cart_item.dart';
-import 'package:cart_app/widgets/reuseble/product_cart.dart';
+import 'package:cart_app/widgets/reuseble/home_page/cart_item.dart';
+import 'package:cart_app/widgets/reuseble/home_page/product_cart.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {

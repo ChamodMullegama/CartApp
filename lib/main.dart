@@ -1,3 +1,4 @@
+import 'package:cart_app/pages/catgeory_page/catgeory_page.dart';
 import 'package:cart_app/pages/home_page/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -10,10 +11,11 @@ class myApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Cart App",
-      home: HomePage(),
+      // home: HomePage(),
+      home: catgeroy(),
     );
   }
 }
