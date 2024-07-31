@@ -96,7 +96,12 @@ class productDetals extends StatelessWidget {
                   Text("230\$")
                 ],
               ),
-              button(),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  button(),
+                ],
+              ),
             ],
           ),
         ),
