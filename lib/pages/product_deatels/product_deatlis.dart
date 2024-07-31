@@ -1,3 +1,4 @@
+import 'package:cart_app/pages/product_deatels/widgets/price_cart.dart';
 import 'package:cart_app/widgets/reuseble/productdetalis/product_deatlis_des.dart';
 import 'package:cart_app/widgets/shared/notification_cart.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class productDetals extends StatelessWidget {
                     color: Colors.yellow.withOpacity(0.8),
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Center(
+                  child: const Center(
                     child: Icon(
                       Icons.shopping_cart,
                       size: 50,
@@ -46,10 +47,10 @@ class productDetals extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
-              productdescrpion(
+              const productdescrpion(
                 tittle: "jskoigjfsiorhgusfhdg",
                 description:
                     "jfegjgfiofd  sjdfoigj sdfgjopsfdg fdlgvpo djfop odfgoh ujf dgtdlgpdkdf gojdhfgj0 df gffg ",
@@ -63,7 +64,37 @@ class productDetals extends StatelessWidget {
                 height: 10,
               ),
               Text("bsrbgh"),
-              
+              pricepriceCard(
+                productNumber: 1,
+                productweght: "jugrsdfei",
+                un: "g",
+                price: 100.00,
+                title: "jgifreghihe",
+              ),
+               pricepriceCard(
+                productNumber: 2,
+                productweght: "jugrsdfei",
+                un: "g",
+                price: 100.00,
+                title: "jgifreghihe",
+              ),
+               pricepriceCard(
+                productNumber: 3,
+                productweght: "jugrsdfei",
+                un: "g",
+                price: 100.00,
+                title: "jgifreghihe",
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text("totala :"),
+                  SizedBox(
+                    width: 90,
+                  ),
+                  Text("230\$")
+                ],
+              )
             ],
           ),
         ),
