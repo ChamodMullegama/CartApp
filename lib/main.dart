@@ -1,5 +1,6 @@
 import 'package:cart_app/pages/catgeory_page/catgeory_page.dart';
 import 'package:cart_app/pages/home_page/home_page.dart';
+import 'package:cart_app/pages/product_deatels/product_deatlis.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Cart App",
       // home: HomePage(),
-      home: catgeroy(),
+      // home: catgeroy(),
+      home: productDetals(),
     );
   }
 }
