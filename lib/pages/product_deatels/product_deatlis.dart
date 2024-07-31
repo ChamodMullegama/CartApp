@@ -1,5 +1,6 @@
 import 'package:cart_app/pages/product_deatels/widgets/price_cart.dart';
 import 'package:cart_app/widgets/reuseble/productdetalis/product_deatlis_des.dart';
+import 'package:cart_app/widgets/shared/button.dart';
 import 'package:cart_app/widgets/shared/notification_cart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -71,14 +72,14 @@ class productDetals extends StatelessWidget {
                 price: 100.00,
                 title: "jgifreghihe",
               ),
-               pricepriceCard(
+              pricepriceCard(
                 productNumber: 2,
                 productweght: "jugrsdfei",
                 un: "g",
                 price: 100.00,
                 title: "jgifreghihe",
               ),
-               pricepriceCard(
+              pricepriceCard(
                 productNumber: 3,
                 productweght: "jugrsdfei",
                 un: "g",
@@ -94,7 +95,8 @@ class productDetals extends StatelessWidget {
                   ),
                   Text("230\$")
                 ],
-              )
+              ),
+              button(),
             ],
           ),
         ),
