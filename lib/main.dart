@@ -14,7 +14,7 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Cart App",
+      title: "Cart App this is my fist cart app",
       // home: HomePage(),
       // home: catgeroy(),
       home: productDetals(),
