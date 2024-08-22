@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                   productCart(
                     tittel: "hio chamod",
                     titelColor: Colors.white, 
-                    description: "bauihgergfharisrjf sijfdgiosfediogjoidf gfdjiogjdfoig fdjiog jifdj gifdsj io",
+                    description: "bauihgergfharisrjf sijfdgiosfediogjoidf gfdjiogjdfoig fdjiog jifdj  io",
                     descriptionColor: Colors.black,
                     mnainBoxColor: Colors.pink,
                     smallBoxColor: Colors.yellow,
